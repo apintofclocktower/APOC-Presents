@@ -18,6 +18,21 @@
         "otherNight": 16
     },
     {
+        "id": "brute_whitney",
+        "image": [],
+        "firstNightReminder": "Wake the Demon & show them the *THIS CHARACTER SELECTED YOU* & Brute tokens. They point to a player. :reminder: Put the Demon to sleep. Wake the Brute & point to the *TARGET*.",
+        "otherNightReminder": "Wake the Demon & show them the *THIS CHARACTER SELECTED YOU* & Brute tokens. They point to a player. :reminder: Put the Demon to sleep. Wake the Brute & point to the *TARGET*.",
+        "name": "Brute",
+        "team": "townsfolk",
+        "reminders:" [
+            "Target",
+            "Drunk"
+        ],
+        "ability": "Each night, the Demon chooses an alive player: you learn who & if they are executed tomorrow, the Demon is drunk until the next dusk.",
+        "firstNight": 15,
+        "otherNight": 16
+    },
+    {
         "id": "medium_whitney",
         "image": [
             "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/medium_whitney.png?raw=true"
@@ -67,7 +82,7 @@
         ],
         "name": "Official",
         "team": "townsfolk",
-        "ability": "Minions know an Official is in play. Each night*, if the Demon wasn't nominated today, all Minions are drunk until dusk."
+        "ability": "Each night*, if the Demon wasn't nominated today, all Minions are drunk until dusk. Minions know an Official is in play."
     },
     {
         "id": "lamia_whitney",
@@ -125,16 +140,6 @@
         "ability": "Good players who you nominate & kill by execution learn you are in play.",
         "attribution": "Luis S, Correct Icon",
         "otherNight": 14
-    },
-    {
-        "id": "liontamerx_whitney",
-        "image": [
-            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/liontamerx_whitney.png?raw=true"
-        ],
-        "name": "Lion Tamer [X]",
-        "team": "townsfolk",
-        "ability": "If you are nominated and executed by an opposing player, they instantly die (not on the final day).",
-        "attribution": "Imzecorella Correct Icon"
     },
     {
         "id": "bequeather_whitney",
