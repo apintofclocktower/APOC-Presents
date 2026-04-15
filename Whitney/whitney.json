@@ -1,0 +1,391 @@
+[
+    {
+        "id": "_meta",
+        "name": "Whitney",
+        "almanac": "https://www.bloodstar.xyz/p/APintOfClocktower/Whitney/almanac.html"
+    },
+    {
+        "id": "forger_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/forger_whitney.png?raw=true"
+        ],
+        "firstNightReminder": "The Forger wakes up and points to a player. If that player the Demon, swap their token and a Minion's.",
+        "otherNightReminder": "The Forger wakes up and points to a player. If that player the Demon, swap their token and a Minion's.",
+        "name": "Forger",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player; a chosen Demon swaps characters with a living Minion.",
+        "firstNight": 15,
+        "otherNight": 16
+    },
+    {
+        "id": "medium_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/medium_whitney.png?raw=true"
+        ],
+        "firstNightReminder": "Remove the \"Storyteller Chooses\" reminder token if it's present. Add it if it isn't.",
+        "otherNightReminder": "Remove the \"Storyteller Chooses\" reminder token if it's present. Add it if it isn't.",
+        "reminders": [
+            "Storyteller Chooses"
+        ],
+        "name": "Medium",
+        "team": "townsfolk",
+        "ability": "Each other night, the Storyteller makes choices for the Demon instead of them.",
+        "firstNight": 14,
+        "otherNight": 15
+    },
+    {
+        "id": "basiliskherder_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/basiliskherder_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "Remove all *POISONED* reminder tokens. :reminder: :reminder: Place *POISONED* reminder tokens on the player marked *NOMINATED GOOD PLAYER* and *NOMINATED GOOD PLAYER*. :reminder: :reminder: Remove those reminders. :reminder: :reminder: ",
+        "reminders": [
+            "Nominated good player",
+            "Nominated evil player",
+            "Poisoned",
+            "Poisoned"
+        ],
+        "setup": true,
+        "name": "Basilisk Herder",
+        "team": "townsfolk",
+        "ability": "Each night*, the 1st good & 1st evil players nominated by Outsiders today, are drunk until dusk. [+1 Outsider]",
+        "attribution": "Dark",
+        "flavor": "Ain't gotta worry, they don't bite, just don't look at 'em. Don't worry 'bout 'em statues, been a while since we had any... incident.",
+        "otherNight": 2
+    },
+    {
+        "id": "official_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/official_whitney.png?raw=true"
+        ],
+        "reminders": [
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk"
+        ],
+        "name": "Official",
+        "team": "townsfolk",
+        "ability": "Minions know an Official is in play. Each night*, if the Demon wasn't nominated today, all Minions are drunk until dusk."
+    },
+    {
+        "id": "lamia_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/lamia_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "The Lamia points to a player. If the Demon and the Lamia hasn't chosen a Demon before, wake them, show the 'This character selected you' card and Lamia character token.",
+        "reminders": [
+            "Shatter"
+        ],
+        "name": "Lamia",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: a Demon, if chosen (once), learns this: another living evil (if there's none, you) must die by dusk.",
+        "attribution": "Imzecorella, Correct Icon",
+        "otherNight": 5
+    },
+    {
+        "id": "martyr_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/martyr_whitney.png?raw=true"
+        ],
+        "reminders": [
+            "No Ability",
+            "A Hill To Die On"
+        ],
+        "name": "Martyr",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, make a public statement. If it was true, everyone learns so when you die."
+    },
+    {
+        "id": "rancher_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/rancher_whitney.png?raw=true"
+        ],
+        "reminders": [
+            "Bull Released",
+            "No Ability"
+        ],
+        "name": "Rancher",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, declare that if an evil player is executed today, 1 good player dies.",
+        "attribution": "Luis S, Correct Icon"
+    },
+    {
+        "id": "seraph_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/seraph_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "If the Seraph nominated & killed a good player by execution today, wake the executee & show the Seraph character token.",
+        "reminders": [
+            "Redeemed"
+        ],
+        "name": "Seraph",
+        "team": "townsfolk",
+        "ability": "Good players who you nominate & kill by execution learn you are in play.",
+        "attribution": "Luis S, Correct Icon",
+        "otherNight": 14
+    },
+    {
+        "id": "liontamerx_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/liontamerx_whitney.png?raw=true"
+        ],
+        "name": "Lion Tamer [X]",
+        "team": "townsfolk",
+        "ability": "If you are nominated and executed by an opposing player, they instantly die (not on the final day).",
+        "attribution": "Imzecorella Correct Icon"
+    },
+    {
+        "id": "bequeather_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/bequeather_whitney.png?raw=true"
+        ],
+        "name": "Bequeather",
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, choose an alive player: by dawn, exactly 3 players live, including who you chose."
+    },
+    {
+        "id": "picketer_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/picketer_whitney.png?raw=true"
+        ],
+        "name": "Picketer",
+        "team": "townsfolk",
+        "ability": "If a good player is nominated, after the vote is tallied, vote tokens aren't spent if only good players did so."
+    },
+    {
+        "id": "dryad_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/dryad_whitney.png?raw=true"
+        ],
+        "name": "Dryad",
+        "team": "townsfolk",
+        "ability": "If at least 1 good player voted on a nomination & more evil players than good players did, all players learn so. ",
+        "attribution": "made for the 2nd apoc anniversary fibbing activity! <br/>\nriffing off of squ4ll's style <span style=\"color: transparent;\">you rly thought itd be that easy</span> <span style=\"user-select: none; color: transparent;\">guess it was</span><br/>\nflavor text & overview by mist!",
+        "flavor": "When you trudged through my forest, I saw you. When you whispered together, I heard you. And when you threw corpses into my grove, you hoped I would forget. I did not."
+    },
+    {
+        "id": "cleric_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/cleric_whitney.png?raw=true"
+        ],
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Cleric",
+        "team": "townsfolk",
+        "ability": "From the 2nd day onwards, Demons you nominate die. If an evil player is dead, you are drunk.",
+        "attribution": "BakedIce, Medallion upheld with chains, with a large ball of light erupting from the center"
+    },
+    {
+        "id": "fenoderee_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/fenoderee_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "If the Demon was nominated today, they may swap characters with a Minion tonight.",
+        "reminders": [
+            "Nominated Demon"
+        ],
+        "name": "Fenoderee",
+        "team": "outsider",
+        "ability": "If the Demon was nominated today, they may choose if they swap characters with a Minion tonight.",
+        "attribution": "Tir",
+        "otherNight": 4
+    },
+    {
+        "id": "rodent_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/rodent_whitney.png?raw=true"
+        ],
+        "reminders": [
+            "Drunk",
+            "Drunk"
+        ],
+        "name": "Rodent",
+        "team": "outsider",
+        "ability": "If 1 of your Townsfolk neighbours die, the other is drunk from now on, even if you are dead."
+    },
+    {
+        "id": "tailor_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/tailor_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "One at a time, wake each player marked *FITTING TONIGHT*, show them the *THIS CHARACTER SELECTED YOU* & Tailor tokens. Allow them to choose a new character. :reminder:",
+        "reminders": [
+            "Fitting Tonight",
+            "Fitting Tonight",
+            "Fitting Tonight",
+            "Fitting Tonight",
+            "Fitting Tonight"
+        ],
+        "name": "Tailor",
+        "team": "outsider",
+        "ability": "If an evil player was nominated today, they may choose a not-in-play character (not an extra Demon) to become tonight.",
+        "flavor": "What will it be this time, Grandmaster Sokolov? A white dress? Yes, of course. Yes, the sword is complementary. Arthur, would you like to show the gentleman to the fitting room?",
+        "otherNight": 3
+    },
+    {
+        "id": "lich_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/lich_whitney.png?raw=true"
+        ],
+        "reminders": [
+            "Final Day"
+        ],
+        "name": "Lich",
+        "team": "outsider",
+        "ability": "If you are dead & evil would lose, play for 1 more day instead. If you are not executed the next day, your team loses.",
+        "attribution": "Lady Mist, THe Lich icon is flexible. It could be a skull or something that evokes a phylactery from D & D, such as a skull amulet or something",
+        "flavor": "Hmmm... it appears the fiend escaped my bindings. No matter. Death could not end me before and it will not end me now. When the dust settles, this feeble town shall be mine."
+    },
+    {
+        "id": "wyrwyner_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/wyrwyner_whitney.png?raw=true"
+        ],
+        "firstNightReminder": "The Wiener chooses a player -- Mark them with the Check reminder token, & remove the Voted Once reminder token. If this player has the Voted Once reminder token, change nothing.",
+        "otherNightReminder": "The Wiener chooses a player -- Mark them with the Check reminder token, & remove the Voted Once reminder token. If this player has the Voted Once reminder token, change nothing.",
+        "reminders": [
+            "Check",
+            "Voted Once"
+        ],
+        "name": "Wyrwyner",
+        "team": "minion",
+        "ability": "Each night, choose an alive player: if they vote twice while chosen, they're executed. On the final day, lose this ability.",
+        "attribution": "Imzecorella Correct Icon",
+        "firstNight": 11,
+        "otherNight": 6
+    },
+    {
+        "id": "dullahan_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/dullahan_whitney.png?raw=true"
+        ],
+        "firstNightReminder": "Each night, you may choose a player: all players learn their character. Tomorrow night, they die.",
+        "otherNightReminder": "Each night, you may choose a player: all players learn their character. Tomorrow night, they die.",
+        "reminders": [
+            "Chosen Tonight",
+            "Chosen Last Night"
+        ],
+        "name": "Dullahan",
+        "team": "minion",
+        "ability": "Each night, you may choose a player: all players learn their character. Tomorrow night, they die.",
+        "firstNight": 13,
+        "otherNight": 11
+    },
+    {
+        "id": "dragonborn_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/dragonborn_whitney.png?raw=true"
+        ],
+        "firstNightReminder": "Show the Dragonborn how many Outsiders are alive.",
+        "otherNightReminder": "If the amount of alive Outsiders has changed, tell the Dragonborne the new amount. ",
+        "reminders": [
+            "Horde Claimed"
+        ],
+        "setup": true,
+        "name": "Dragonborn",
+        "team": "minion",
+        "ability": "You know how many Outsiders live. If it's 0, Townsfolk who nominate you are executed. [+0 or +1 Outsider]",
+        "attribution": "Ice",
+        "firstNight": 12,
+        "otherNight": 13
+    },
+    {
+        "id": "anubis_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/anubis_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "If an Outsider died today or tonight, a 2nd might become a Townsfolk, & vice versa. If so, wake the turned player. Show the *YOU ARE* token & their new character token. Put them to sleep. Then wake the Anubis. Show the *THIS PLAYER IS* token, point to the turned player, & show their new character token.",
+        "reminders": [
+            "Scales Tonight",
+            "Scales Tonight",
+            "Scales Tonight"
+        ],
+        "setup": true,
+        "name": "Anubis",
+        "team": "minion",
+        "ability": "If an Outsider dies, a 2nd might become a not-in-play Townsfolk tonight (you know them) & vice versa. [-? to +? Outsiders]",
+        "attribution": "Luis S Correct Icon",
+        "otherNight": 12
+    },
+    {
+        "id": "kurshaal_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/kurshaal_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "The Kurs-Haal may point to a player. That player dies. Wake all players together, allow them to choose by pointing at who they want. Players who choose a player who died earlier tonight die.",
+        "reminders": [
+            "Dead",
+            "Bad Bet",
+            "Bad Bet",
+            "Bad Bet"
+        ],
+        "name": "Kurs-Haal",
+        "team": "demon",
+        "ability": "Each night*, you may choose a player: they die & all players guess another player who\u2019s still alive - wrong players die.",
+        "otherNight": 10
+    },
+    {
+        "id": "crown_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/crown_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "The Crown might choose 4 players. :reminder: :reminder: :reminder: :reminder:. Wake all players and announce the pairs that the Crown has chosen in order. Allow all players to vote. Put all players to sleep. The most voted pair dies. Add shrouds accordingly. On a tie, wake the Crown. They point to a pair. Add shrouds accordingly. If the Crown is *DAMNED* & they die this way, evil wins. If they aren't already, mark the Crown with the *DAMNED* reminder. :reminder:",
+        "reminders": [
+            "1: Pair I",
+            "2: Pair I",
+            "3: Pair II",
+            "4: Pair II",
+            "Dead Minion"
+        ],
+        "name": "Crown",
+        "team": "demon",
+        "ability": "Each night*, you may choose 2 pairs of players: all choose which dies. If a Minion is dead & you die this way, evil wins.",
+        "attribution": "Luis S, Correct Icon",
+        "flavor": ".smra ym struh ti taht ,deedni ,yvaeh os shgiew tI .dnal ot tey ti etipsed yvaeh su no gnihgiew ,htgnerts ruo yb denekaew ,esir ot su rof gnitiaw ti ees dna pu kool lla eW .drows eht htaeneb tis lla eW",
+        "otherNight": 9
+    },
+    {
+        "id": "kingofyarn_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/kingofyarn_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "The King of Yarn chooses three players. :reminder: :reminder: :reminder: Say \"the King of Yarn has chosen\\\", then each marked player's name. Wake the player marked *1*. They point at a marked player. Put them to sleep and add shrouds accordingly. Repeat for players marked *2* and *3*. If all three players chose the same player, who is good, mark the King of Yarn with *UNANIMOUS*. The 2nd time, declare evil wins.",
+        "reminders": [
+            "1",
+            "2",
+            "3",
+            "Unanimous"
+        ],
+        "name": "King of Yarn",
+        "team": "demon",
+        "ability": "Each night*, choose 3 players (all learn who): each silently chooses 1 of them to kill. If good is unanimously chosen twice, evil wins.",
+        "attribution": "Luis S, Beta Icon",
+        "flavor": "Run. I dare you to run. Yearn for safety. In this pit, all it does is bring me closer.",
+        "otherNight": 7
+    },
+    {
+        "id": "ioke_whitney",
+        "image": [
+            "https://raw.githubusercontent.com/apintofclocktower/APOC-Presents/refs/heads/main/Icons/ioke_whitney.png?raw=true"
+        ],
+        "otherNightReminder": "The Ioke chooses an alive player -- mark them with the 1st reminder token. Wake this player, and prompt them to choose another alive player -- them this player with the 2nd reminder token. Repeat to get 3 chosen players -- the Ioke wakes to choose whether the 1st, 2nd, or 3rd choices die.",
+        "reminders": [
+            "1st",
+            "2nd",
+            "3rd"
+        ],
+        "name": "Ioke",
+        "team": "demon",
+        "ability": "Each night*, choose an alive player: they choose a 2nd, who chooses a 3rd. Then, decide whether the 1st, 2nd, and 3rd choices die.",
+        "otherNight": 8
+    },
+    {
+        "id": "gentry_whitney",
+        "name": "Gentry",
+        "team": "traveller",
+        "ability": "Players may not vote on their own nominations without your permission."
+    }
+]
