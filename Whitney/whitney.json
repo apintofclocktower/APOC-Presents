@@ -24,7 +24,7 @@
         "otherNightReminder": "Wake the Demon & show them the *THIS CHARACTER SELECTED YOU* & Brute tokens. They point to a player. :reminder: Put the Demon to sleep. Wake the Brute & point to the *TARGET*.",
         "name": "Brute",
         "team": "townsfolk",
-        "reminders:" [
+        "reminders:": [
             "Target",
             "Drunk"
         ],
