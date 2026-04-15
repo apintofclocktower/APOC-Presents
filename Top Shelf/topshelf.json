@@ -1,0 +1,635 @@
+[
+    {
+        "id": "_meta",
+        "name": "Top Shelf",
+        "author": "A Pint Of Clocktower",
+        "almanac": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/almanac.html"
+    },
+    {
+        "id": "cobbler_topshelf",
+        "firstNightReminder": "Show the Cobbler 1 in-play good character token & 1 in-play evil character token, or 1 not-in-play good character token & 1 not-in-play evil character token.",
+        "name": "Cobbler",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 good & 1 evil character: they are either both in-play or not at all.",
+        "firstNight": 21
+    },
+    {
+        "id": "pyreseer_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/pyreseer_topshelf.png",
+        "firstNightReminder": "Point at 2 players who'd benefit the Pyreseer's team by dying tomorrow.",
+        "name": "Pyreseer",
+        "team": "townsfolk",
+        "ability": "You start knowing 2 players who'd help your team by being executed tomorrow.",
+        "firstNight": 20
+    },
+    {
+        "id": "samurai_topshelf",
+        "name": "Samurai",
+        "team": "townsfolk",
+        "ability": "You & Minions start knowing a rule. If a Minion breaks this rule, you learn them."
+    },
+    {
+        "id": "herald_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/herald_topshelf.png",
+        "firstNightReminder": "If it's the Herald's 1st or 2nd night, show the hand signal (0, 1, 2, etc.) for how many other players woke before them (due to their own ability).",
+        "otherNightReminder": "If it's the Herald's 1st or 2nd night, show the hand signal (0, 1, 2, etc.) for how many other players woke before them (due to their own ability).",
+        "reminders": [
+            "Woke",
+            "No Information"
+        ],
+        "name": "Herald",
+        "team": "townsfolk",
+        "ability": "On your 1st and 2nd night, learn how many other players woke up due to their own ability.",
+        "firstNight": 23,
+        "otherNight": 20
+    },
+    {
+        "id": "hierophant_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/hierophant_topshelf.png",
+        "firstNightReminder": "The Hierophant points at a player. Give the appropriate thumb signal.",
+        "otherNightReminder": "The Hierophant points at a player. Give the appropriate thumb signal.",
+        "name": "Hierophant",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: you learn how helpful they are being to their team.",
+        "attribution": "Luis S, Correct Icon",
+        "flavor": "Come with me, and I shall show you the way.\u201d",
+        "firstNight": 11,
+        "otherNight": 3
+    },
+    {
+        "id": "debutante_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/debutante_topshelf.png",
+        "name": "Debutante",
+        "team": "townsfolk",
+        "ability": "Each night, learn a player and a character: if in-play, they\u2019re good, if out-of-play, they\u2019re evil."
+    },
+    {
+        "id": "fireprod_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/fireprod_topshelf.png",
+        "firstNightReminder": "Wake the Fireprod to choose a player, they are marked with a 'Tended' reminder token.",
+        "otherNightReminder": "If the Fireprod has used their 'Once per game' ability, do not wake them. Wake the Fireprod to choose a player, they are marked with a 'Tended' reminder token.",
+        "reminders": [
+            "Tended",
+            "Tended",
+            "Tended",
+            "Tended",
+            "Tended",
+            "No Ability"
+        ],
+        "name": "Fireprod",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player. You may (once) choose to learn which chosen player is closest to the Demon.",
+        "flavor": "Oh it\u2019s awfully chilly outside, please, I do ask that you stay in. I shall have the maids prepare some hot tea, we shall find you a novel that best fits your inclinations, and we shall stay close to the fireplace.",
+        "firstNight": 12,
+        "otherNight": 4
+    },
+    {
+        "id": "cimlaaq_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/cimlaaq_topshelf.png",
+        "firstNightReminder": "Point to 3 different players.",
+        "otherNightReminder": "Point to 3 different players.",
+        "reminders": [
+            "Seen",
+            "No Ability"
+        ],
+        "name": "Cimlaaq",
+        "team": "townsfolk",
+        "ability": "Each night, learn 3 players: tomorrow, you may name a statement about them to the Storyteller. If false, you lose your ability.",
+        "attribution": "Imzecorella & Nexus, Correct Icon",
+        "flavor": "The wind blows away so many good things, so stay under the roof of those who you understand you.",
+        "firstNight": 22,
+        "otherNight": 17
+    },
+    {
+        "id": "tactician_topshelf",
+        "name": "Tactician",
+        "team": "townsfolk",
+        "ability": "Each night*, choose 2 living players: learn which one the Storyteller thinks it\u2019d be better for the Demon to kill tonight."
+    },
+    {
+        "id": "hostess_topshelf",
+        "name": "Hostess",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: learn 2 others, at least 1 of which is their alignment."
+    },
+    {
+        "id": "falconer_topshelf",
+        "name": "Falconer",
+        "team": "townsfolk",
+        "ability": "On your 1st night, choose a character. 1-4 nights later, learn who that character is (or that it's not in play, then choose another)."
+    },
+    {
+        "id": "seafarer_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/seafarer_topshelf.png",
+        "otherNightReminder": "Point your thumb clockwise or anti-clockwise relative to the Seafarer player.",
+        "name": "Seafarer",
+        "team": "townsfolk",
+        "ability": "Each night*, learn if the Demon's kill nearest to themselves was closer clockwise or anti-clockwise (starting from the Demon).",
+        "otherNight": 19
+    },
+    {
+        "id": "scribe_topshelf",
+        "name": "Scribe",
+        "team": "townsfolk",
+        "ability": "Each night*, if you nominated today, learn how many evil players voted on it."
+    },
+    {
+        "id": "trapsmith_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/trapsmith_topshelf.png",
+        "otherNightReminder": "The previously protected lose their markers. The Trapper points to two players. The 1st time the Demon chooses one, they are prompted to choose again.",
+        "reminders": [
+            "Chosen",
+            "Chosen"
+        ],
+        "name": "Trapsmith",
+        "team": "townsfolk",
+        "ability": "Each night*, choose 2 players (not yourself). The 1st time the Demon attacks either tonight, they must choose someone else instead.",
+        "otherNight": 2
+    },
+    {
+        "id": "mycologist_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/mycologist_topshelf.png",
+        "name": "Mycologist",
+        "team": "townsfolk",
+        "ability": "Each night, choose 2 players (not yourself): if either is evil, neither can die tonight or tomorrow day."
+    },
+    {
+        "id": "cosmonaut_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/cosmonaut_topshelf.png",
+        "name": "Cosmonaut",
+        "team": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to learn a cryptic hint about the gamestate."
+    },
+    {
+        "id": "pilgrim_topshelf",
+        "name": "Pilgrim",
+        "team": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to ask a subjective quesiton about a not-in-play Traveler.",
+        "attribution": "(if not on Midori)"
+    },
+    {
+        "id": "marchioness_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/marchioness_topshelf.png",
+        "otherNightReminder": "If the Marchioness named no Demons today, kill a named player.",
+        "reminders": [
+            "Chosen",
+            "Dead"
+        ],
+        "name": "Marchioness",
+        "team": "townsfolk",
+        "ability": "Each day, you may publicly name at least 2 players. If none are the Demon, one dies tonight.",
+        "otherNight": 18
+    },
+    {
+        "id": "beetle_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/beetle_topshelf.png",
+        "name": "Beetle",
+        "team": "townsfolk",
+        "ability": "Each day, you may publicly guess which evil character is \"about to die\". If correct, they are executed immediately."
+    },
+    {
+        "id": "dreamweaver_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/dreamweaver_topshelf.png",
+        "name": "Dreamweaver",
+        "team": "townsfolk",
+        "ability": "Each day*, visit the Storyteller and choose a player. You learn which character type killed them, if any."
+    },
+    {
+        "id": "milkmaid_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/milkmaid_topshelf.png",
+        "reminders": [
+            "Learned",
+            "Learned"
+        ],
+        "setup": true,
+        "name": "Milkmaid",
+        "team": "townsfolk",
+        "ability": "If you die at night, learn 1 evil player. [+0 or +1 Milkmaid]",
+        "flavor": "Oo's yer dad?"
+    },
+    {
+        "id": "orchardkeeper_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/orchardkeeper_topshelf.png",
+        "setup": true,
+        "name": "Orchard Keeper",
+        "team": "townsfolk",
+        "ability": "There are an even number of Outsiders in play. [+0 or +1 Outsiders]"
+    },
+    {
+        "id": "dovecotman_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/dovecotman_topshelf.png",
+        "name": "Dovecotman",
+        "team": "townsfolk",
+        "ability": "Outsiders \"mad\" they are the Dovecotman might be drunk & not die at night. [+1 Outsider]",
+        "flavor": "How many people does it take to run a dovecot? Not zero, I'll say. These little nobles require true care and attention."
+    },
+    {
+        "id": "chanteuse_topshelf",
+        "name": "Chanteuse",
+        "team": "townsfolk",
+        "ability": "If the Demon just killed the most important good player, you are woken to learn an evil player."
+    },
+    {
+        "id": "luckycat_topshelf",
+        "name": "Lucky Cat",
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, all players learn this. From now on, if an evil player dies by execution, good wins."
+    },
+    {
+        "id": "unicorn_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/unicorn_topshelf.png",
+        "name": "Unicorn",
+        "team": "outsider",
+        "ability": "Minions start knowing an improbable condition & you know a clue to it. If it happens (once), you're executed, even if dead."
+    },
+    {
+        "id": "detective_topshelf",
+        "name": "Detective",
+        "team": "outsider",
+        "ability": "The 1st time you nominate a player, if it is the Demon, you turn evil & win."
+    },
+    {
+        "id": "debtor_topshelf",
+        "name": "Debtor",
+        "team": "outsider",
+        "ability": "On Night 4, you & another player die. If you\u2019d die before then, instead add 1 to how many die."
+    },
+    {
+        "id": "roifainant_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/roifainant_topshelf.png",
+        "firstNightReminder": "During Minion Info, point to the Minion that the Demon doesn't know and show all the Minions the Roi Fain\u00e9ant token.",
+        "reminders": [
+            "Unknown"
+        ],
+        "name": "Roi Fain\u00e9ant",
+        "team": "outsider",
+        "ability": "Minions know which Minion the Demon doesn't know. The Demon thinks they're evil. [+1 Minion, the Demon is good]",
+        "firstNight": 14
+    },
+    {
+        "id": "rat_topshelf",
+        "name": "Rat",
+        "team": "outsider",
+        "ability": "The Demon knows who you are. Each night, they may choose which becomes the evil Minion they replaced. [An extra Rat replaces a Minion]"
+    },
+    {
+        "id": "understudy_topshelf",
+        "name": "Understudy",
+        "team": "outsider",
+        "ability": "Each night*, if you were less helpful to your team today than yesterday, you or a good neighbour dies."
+    },
+    {
+        "id": "glimjack_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/glimjack_topshelf.png",
+        "firstNightReminder": "The Glimjack shakes their head 'no' or points to a player. If that player is evil, nod your head 'yes'. If that player is good, shake your head 'no'.",
+        "otherNightReminder": "If this is the final night, show the 'You are' card and the thumbs up signal for 'Good'. The Glimjack shakes their head 'no' or points to a player. If that player is evil, nod your head 'yes'. If that player is good, shake your head 'no'.",
+        "reminders": [
+            "1 Use Left",
+            "No Ability"
+        ],
+        "name": "Glimjack",
+        "team": "outsider",
+        "ability": "Twice per game, at night, choose a player: learn if they're evil. You're evil until the final night, even if dead, drunk or poisoned.",
+        "firstNight": 13,
+        "otherNight": 5
+    },
+    {
+        "id": "occultist_topshelf",
+        "reminders": [
+            "Interest Lost",
+            "Given "
+        ],
+        "name": "Occultist",
+        "team": "outsider",
+        "ability": "You might be executed unless you are mad about learning something new every day. Once per game, when you visit the Storyteller, you learn a fact.",
+        "flavor": "Flesh is weaker than silver is weaker\nthan rot is weaker than the divine is\nweaker than rot is weaker than silver\nis weaker than flesh. It\u2019s a cycle. Get\nit? I don\u2019t."
+    },
+    {
+        "id": "investor_topshelf",
+        "name": "Investor",
+        "team": "outsider",
+        "ability": "1 Townsfolk might register as evil & as a Demon, even if dead. If they would die at night, another player might die instead."
+    },
+    {
+        "id": "showman_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/showman_topshelf.png",
+        "reminders": [
+            "Heckle",
+            "Heckle",
+            "Heckle",
+            "Heckle",
+            "Heckle"
+        ],
+        "name": "Showman ",
+        "team": "outsider",
+        "ability": "Players who don't applaud your (& only your) death might die at any time.",
+        "flavor": "The greatest performance in life, unarguably, comes at the end. So, I ask you once more: are the masses yet to be entertained!?"
+    },
+    {
+        "id": "chupacabra_topshelf",
+        "otherNightReminder": "The Chupacabra might point at a player. :reminder:",
+        "reminders": [
+            "Prey",
+            "Prey",
+            "Prey",
+            "Prey",
+            "Prey",
+            "Dead"
+        ],
+        "name": "Chupacabra",
+        "team": "minion",
+        "ability": "Each night*, you may choose a player nominated by evil today: they die.",
+        "otherNight": 7
+    },
+    {
+        "id": "bookwyrm_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/bookwyrm_topshelf.png",
+        "name": "Bookwyrm",
+        "team": "minion",
+        "ability": "Each day, if you guess what the Librarian learned, your team wins tonight. [1 Outsider, +The Librarian]"
+    },
+    {
+        "id": "winegremlin_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/winegremlin_topshelf.png",
+        "otherNightReminder": "If no VISITED reminder on the Grimoire during the night, wake the Wine Gremlin. They point at any player. Remove any preexisting MASKED reminders. Mark the chosen player with the MASKED reminder",
+        "reminders": [
+            "Visited",
+            "Masked",
+            "Masked"
+        ],
+        "name": "Wine Gremlin",
+        "team": "minion",
+        "ability": "Each day, 1 good player chooses 2 alive non-Travellers, or you choose 1 tonight: to Townsfolk, they register as evil Demons until next choice.",
+        "attribution": "Lady Mist, The Wine Gremlin icon has been made by Eddy, but is a little gnome-ike creature hiding behind a wine bottle",
+        "flavor": "Aw, c'mon! You've had such a long day. One more sip won't hurt. One more glass won't hurt. One more bottle won't hurt. Just drown your sorrows out!",
+        "otherNight": 21
+    },
+    {
+        "id": "impresario_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/impresario_topshelf.png",
+        "firstNightReminder": "Wake the Impresario to choose a day.",
+        "otherNightReminder": "If the Impresario's chosen day was yesterday, wake them to become the executed character.",
+        "reminders": [
+            "Opera Today"
+        ],
+        "remindersGlobal": [
+            "Impresario's Ability"
+        ],
+        "name": "Impresario",
+        "team": "minion",
+        "ability": "Once per game, at night, choose to become the character executed tomorrow (unless 3 live). Each day, if no-one is executed, evil wins.",
+        "firstNight": 15,
+        "otherNight": 6
+    },
+    {
+        "id": "gizmo_topshelf",
+        "name": "Gizmo",
+        "team": "minion",
+        "ability": "Once per game, at night, choose a Demon: become it, & if you don\u2019t claim Gizmo when nominated you lose if executed."
+    },
+    {
+        "id": "willowisp_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/willowisp_topshelf.png",
+        "reminders": [
+            "Fizzled"
+        ],
+        "name": "Will o' Wisp",
+        "team": "minion",
+        "ability": "The 1st time each Townsfolk player's ability would yield true info, it's false."
+    },
+    {
+        "id": "trader_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/trader_topshelf.png",
+        "reminders": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "Upgraded",
+            "Has Ability"
+        ],
+        "name": "Trader",
+        "team": "minion",
+        "ability": "You know a night & a Minion ability you have. On that night, your ability is replaced & 1 good player learns your old one.",
+        "attribution": "(Icon by Eddy)",
+        "flavor": "Hmmm\u2026 nope this one sucks. NEXT!"
+    },
+    {
+        "id": "errata_topshelf",
+        "name": "Errata",
+        "team": "minion",
+        "ability": "You know who you poison: it's a Townsfolk if 0 or 1 Outsiders live & an Outsider if 3 or more live. [-1 to +1 Outsiders]"
+    },
+    {
+        "id": "procession_topshelf",
+        "name": "Procession",
+        "team": "minion",
+        "ability": "Outsiders might register as an evil Procession. If there\u2019s 1 Outsider, you keep your ability whilst dead. [Exactly 1 or +1 Outsider]"
+    },
+    {
+        "id": "sentry_topshelf",
+        "name": "Sentry",
+        "team": "minion",
+        "ability": "If your team loses, all players claim a character: if no-one lied or you guess an opposing player who did, your team wins. [-1 to +1 Outsider]"
+    },
+    {
+        "id": "gasanthesheshu_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/gasanthesheshu_topshelf.png",
+        "reminders": [
+            "Mad",
+            "Mad",
+            "Mad",
+            "Dead",
+            "Dead",
+            "Dead"
+        ],
+        "name": "Gasanthesheshu",
+        "team": "minion",
+        "ability": "For each good player who's mad that you're in play, 1 good player might die at any time (until 2 nights from now).",
+        "flavor": "Beacon. Bright. Stolen. Light. Humans. Thieves. Humans. Die. Humans. Will. Return. The Beacon. Humans. Will. Return. The Light."
+    },
+    {
+        "id": "styx_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/styx_topshelf.png",
+        "firstNightReminder": "Wake the Demon, show them the Styx token, if they nod, swap their characters.",
+        "otherNightReminder": "Wake the Demon, show them the Styx token, if they nod, swap their characters. If you deem so, rise any dead evil players you want.",
+        "reminders": [
+            "Alive",
+            "Once"
+        ],
+        "name": "Styx",
+        "team": "minion",
+        "ability": "Dead evil players might rise, even if you're dead. The Demon may (once) swap characters with a Styx.",
+        "flavor": "WE WILL NOT GO WILLINGLY. NOT BY YOUR SWORDS NOR CROSSES, STONES OR SHOVELS. YOU WILL DIE DEEPER THAN YOU CAN BURY US.",
+        "firstNight": 16,
+        "otherNight": 8
+    },
+    {
+        "id": "ruffian_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/ruffian_topshelf.png",
+        "reminders": [
+            "Survives execution",
+            "No Ability"
+        ],
+        "name": "Ruffian",
+        "team": "minion",
+        "ability": "The 1st time you vote for an evil player & they're executed that day, they don't die. If just 3 players live, lose this ability."
+    },
+    {
+        "id": "drillsergeant_topshelf",
+        "name": "Drill Sergeant",
+        "team": "minion",
+        "ability": "Each nomination, votes are tallied instantly on 3, even if dead. The Storyteller can nominate & you suggest who each night."
+    },
+    {
+        "id": "azoumir_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/azoumir_topshelf.png",
+        "otherNightReminder": "The Azoumir chooses a player: they die. If it is an even night, a Minion becomes a different not in-play Minion.",
+        "reminders": [
+            "Dead"
+        ],
+        "name": "Azoumir",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Every 2nd night, choose a Minion character: if not in-play, a Minion becomes it.",
+        "otherNight": 9
+    },
+    {
+        "id": "umbra_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/umbra_topshelf.png",
+        "firstNightReminder": "Place the 'False World' reminder on the Umbra.",
+        "otherNightReminder": "The Umbra points to a player.",
+        "reminders": [
+            "False World"
+        ],
+        "setup": true,
+        "name": "Umbra",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Each time you kill an Outsider, Townsfolk info is reversed. It starts false. [+1 Outsider]",
+        "firstNight": 17,
+        "otherNight": 10
+    },
+    {
+        "id": "myrkkymato_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/myrkkymato_topshelf.png",
+        "otherNightReminder": "Wake and have them choose a player: They die, & mark one of their good neighbors with the \"poisoned\" reminder.",
+        "reminders": [
+            "Dead",
+            "Poisoned"
+        ],
+        "name": "Myrkkymato",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die & poison 1 good neighbor until dusk.",
+        "otherNight": 11
+    },
+    {
+        "id": "vitoo_topshelf",
+        "name": "Vitoo",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If you nominate a Minion & they live, swap characters tonight. "
+    },
+    {
+        "id": "nykthyr_topshelf",
+        "name": "Nykthyr",
+        "team": "demon",
+        "ability": "Each night*, unless you killed 2 Townsfolk last night, choose 2 players: they die. [+1 Outsider]"
+    },
+    {
+        "id": "babbako_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/babbako_topshelf.png",
+        "otherNightReminder": "The Babbako points to a player. If it is currently 'A Feast' and Minions live, the Babbako must choose a living Minion, or you shake your head 'no'.",
+        "reminders": [
+            "Taste",
+            "Taste",
+            "Taste",
+            "Dead"
+        ],
+        "setup": true,
+        "name": "Babbako",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If you've killed 1 good player for each Minion, you must kill Minions if any live. [+1 Minion]",
+        "otherNight": 12
+    },
+    {
+        "id": "runewyrm_topshelf",
+        "name": "Runewyrm",
+        "team": "demon",
+        "ability": "Each night*, if you voted for today\u2019s executee, choose 2 players: they die. Otherwise, a player dies*."
+    },
+    {
+        "id": "ahe_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/ahe_topshelf.png",
+        "otherNightReminder": "The Ahe points to a player.",
+        "setup": true,
+        "name": "Ahe",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. [Minions are good, but think they're evil. 1 or 2 Townsfolk are evil for each Minion]",
+        "otherNight": 15
+    },
+    {
+        "id": "tommatabu_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/tommatabu_topshelf.png",
+        "otherNightReminder": "The Tomma Tabu, if a player, points to a player.",
+        "reminders": [
+            "Dead",
+            "Storyteller Ability"
+        ],
+        "setup": true,
+        "name": "Tomma Tabu",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Demons & Minions left in the bag are the Storyteller. [All Outsiders are in the bag]",
+        "otherNight": 16
+    },
+    {
+        "id": "auwre_topshelf",
+        "firstNightReminder": "Do not inform the Demon or their Minions who each other are. ",
+        "otherNightReminder": "Wake the Au\u2019Wre. They point to a number of players equal to the number of in-play Minions: indicate which of the people they chose are Minions. If all of them are, place the \"Found Minions\" reminder.",
+        "reminders": [
+            "Found Minions"
+        ],
+        "setup": true,
+        "name": "Au\u2019Wre",
+        "team": "demon",
+        "ability": "Each night*, guess your Minions: learn which are correct. If all are, good learns this, and must kill evil today or lose. [Evil don\u2019t learn each other]",
+        "flavor": "\ud808\uddfb \ud808\udf28\ud808\ude48\ud808\uddf7\ud808\udcb5\ud808\udc09",
+        "firstNight": 19,
+        "otherNight": 14
+    },
+    {
+        "id": "matsuraid_topshelf",
+        "firstNightReminder": "Place the Matsuraid *DAY 1* reminder. :reminder:",
+        "otherNightReminder": "Change the Matsuraid reminder for the next day. :reminder:",
+        "reminders": [
+            "Day 1",
+            "Day 2",
+            "Day 3",
+            "About to Die"
+        ],
+        "setup": true,
+        "name": "Matsuraid",
+        "team": "demon",
+        "ability": "Evil votes secretly don't count & only 2 are required. Dead executees' teams lose. After day 3, evil wins. [Some players are evil]",
+        "firstNight": 18,
+        "otherNight": 13
+    },
+    {
+        "id": "mixologist_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/mixologist_topshelf.png",
+        "name": "Mixologist",
+        "team": "fabled",
+        "ability": "Drunk or poisoned players cannot learn true info."
+    },
+    {
+        "id": "sommelier_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/sommelier_topshelf.png",
+        "name": "Sommelier",
+        "team": "fabled",
+        "ability": "Use the Sommelier's suggested substitutions. All players know which ones are in use."
+    },
+    {
+        "id": "scholar_topshelf",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Top-Shelf/scholar_topshelf.png",
+        "name": "Scholar",
+        "team": "fabled",
+        "ability": "Something good might happen to players who remind or inform the Storyteller."
+    }
+]
