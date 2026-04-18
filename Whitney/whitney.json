@@ -11,7 +11,7 @@
         ],
         "firstNightReminder": "The Forger wakes up and points to a player. If that player the Demon, swap their token and a Minion's.",
         "otherNightReminder": "The Forger wakes up and points to a player. If that player the Demon, swap their token and a Minion's.",
-        "name": "Forger",
+        "name": "Forger [X]",
         "team": "townsfolk",
         "ability": "Each night, choose a player; a chosen Demon swaps characters with a living Minion.",
         "firstNight": 15,
